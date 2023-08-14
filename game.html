@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://playtictactoe.org/assets/images/icon-32.png">
+    <link rel="stylesheet" href="base.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    
+    <title>Tic tac toe</title>
+</head>
+
+<body class="body2" >
+
+    <audio src="audio/tick.mp3" class="crossSound"></audio>
+    <audio src="audio/click.mp3" class="noughtSound"></audio>
+    <audio src="audio/Sound_16587.mp3" class="drawSound"></audio>
+    <audio src="audio/winSound.mp3" class="winSound"></audio>
+    <audio src="audio/snd_bell.mp3" class="ringing"></audio>
+    <audio src="audio/closing.mp3" class="closeSound"></audio>
+
+
+<main class="main">
+
+    <div class="box" >  
+        
+        <h1 class="h1 pt-5">Tic Tac Toe</h1>
+
+                <div class="area" >
+
+                    <div class="area-element"></div> 
+                    <div class="area-element" style="border-left: 3px solid #fff;"></div>
+                    <div class="area-element" style="border-left: 3px solid #fff;"></div>
+                    <div class="area-element" style="border-top: 3px solid #fff;"></div>
+                    <div class="area-element" style="border-left: 3px solid #fff; border-top: 3px solid #fff;"></div>
+                    <div class="area-element" style="border-left: 3px solid #fff; border-top: 3px solid #fff;"></div>
+                    <div class="area-element" style="border-top: 3px solid #fff;"></div>
+                    <div class="area-element" style="border-left: 3px solid #fff; border-top: 3px solid #fff;"></div>
+                    <div class="area-element" style="border-left: 3px solid #fff; border-top: 3px solid #fff;"></div>
+
+                </div>
+    </div>
+
+
+    <div class="wrap">
+        <div class="veil">
+            <div class="modalWindow">
+                <div class="content"> </div>
+                <button class="button" type="button"> New Game </button>
+            </div>
+        </div>
+    </div>
+
+</main>    
+
+
+<footer>
+
+    <div class="container">
+        <div class="row align-items-center justify-content-around">
+    
+            <div class="col-md-4 " style="text-align: center; padding-top: 10px;">  
+
+                <span class="footer-link-hover" >
+    
+                    © 2022 
+                        <a href="https://github.com/abdugaffor2004" style="text-decoration: none;"  target="_blank" rel="noopener noreferrer">  github    </a>
+                
+                </span> 
+            
+            </div>
+    
+    
+    
+            <div class="col-md-4" style="text-align: center; padding: 15px 0 10px;">
+    
+                <span class="footer-link-hover" >
+                    <a href="https://rs.school/js-stage0/" style="text-decoration: none;" target="blank"> Rolling Scopes School </a> 
+               </span>
+    
+            </div>
+    
+    
+            <div class="col-md-4 text-center " style="text-align: center;" >
+                <a href="https://rs.school/js/"> <img src="https://abdugaffor2004.github.io/rsschool-cv/img/logo-rss.svg" class="logo" alt="Logo RS"></a>
+            </div>
+    
+    
+        </div>
+    </div>
+    
+</footer>
+
+    
+<script src="main.js"></script>
+</body>
+</html>
